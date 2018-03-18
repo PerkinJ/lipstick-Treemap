@@ -4,14 +4,23 @@
         <meta charset="UTF-8" />
         <title>口红颜色可视化</title>
         <link rel="stylesheet" href="./index.css">
+        <script>
+            var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?dd0520848348d880afab758df7af85da";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+            })();
+            </script>
+            
     </head>
     <body>
         <div id="example"></div>
 
         <!-- Dependencies -->
-        <script src="./node_modules/react/umd/react.development.js"></script>
-        <script src="./node_modules/react-dom/umd/react-dom.development.js"></script>
-
+        <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
         <!-- Main -->
         <script src="./dist/bundle.js"></script>
     </body>
